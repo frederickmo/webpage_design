@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP-Form</title>  
+    <link rel="stylesheet" type="text/css" href="myPHP.css">
+</head>
+<body background='https://images.unsplash.com/photo-1553325656-a7cbcee99add?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fHN0YXJyeSUyMHNreXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'>
+    <div class="my-text">
+        <h3>Welcome to Students' Registration System</h3>
+        <h4>Enter another registration record below:</h4>
+          <div class="form">
+            <form action="myPHP.php" method="POST">
+                <div class="form-box">
+                  <label for="name">Name: </label>
+                  <input type="text" id="name" name="name" class="input-box">
+                </div>
+                <div class="form-box">
+                  <label for="age">Age: </label>
+                  <input type="text" id="age" name="age" class="input-box">
+                </div>
+                <div class="form-box">
+                  <label for="gender">Gender: </label>
+                  <input type="text" id="gender" name="gender" class="input-box">
+                </div>
+                <input type="submit" value="Submit" class="submit-box">
+            </form>
+          </div>
+    </div>
+</body>
+</html>
